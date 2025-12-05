@@ -1,14 +1,16 @@
-# Hash-Palette Flowfield Generator 🌀
+# Data-Driven Emotion Art Generator 🎨
 
-Turn **any text** into a deterministic color palette and generate **flowfield line art**.  
-Perfect for courses/projects that bridge **generative art** and **data-driven design** without external APIs.
+Turn text into abstract emotion-driven art. This Streamlit app detects a small set of emotion keywords and generates visuals (colors, shapes, density) for seven emotions: **joy, sadness, anger, fear, surprise, trust, disgust**.
 
-## Features
-- Hash your text → reproducible color palette
-- Flow field with adjustable scale/twist
-- Particle count, steps, stroke width/alpha
-- Dark/Light/Palette-based backgrounds
-- One-click PNG download
+## Demo (How to use)
+1. Paste any English text (diary, lyrics, notes).  
+2. Click **Generate Art**.  
+3. Download the PNG or tweak **seed / density / blur** in the sidebar.
+
+## Tech Stack
+- **Streamlit** for the web UI  
+- **Pillow (PIL)** for image generation and compositing  
+- **Python** (no API keys required)
 
 ## Run locally
 ```bash
